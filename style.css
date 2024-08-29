@@ -1,0 +1,32 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1,h2,h3{
+    color:blueviolet; 
+    background-color: rgb(187, 230, 70);
+}
+#first{
+    background-color:forestgreen; 
+    color:aliceblue;
+}
+.odd{
+    background-color:yellow; 
+    color:black;
+}
+ul>li{
+    color: plum;
+    padding-left: 0%;
+}
+a[href = "https://www.youtube.com"]
+{
+ color: rgb(183, 51, 22)  ;
+ font-size: larger;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: none;
+}
+a[href *= 'amazon']
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(232, 197, 22);
+}
